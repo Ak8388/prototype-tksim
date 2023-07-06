@@ -1,0 +1,30 @@
+.content-wrapper > .home-wrapper > .class-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+  height: 356px;
+
+  > .detail-wrapper {
+    border-radius: 8px;
+    background-image: url("https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg?w=2000");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 16px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  > .action-wrapper {
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+
+    > button {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
